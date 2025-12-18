@@ -1,0 +1,9 @@
+/* 1. Önce dışarıdan gelen fontu ve CSS dosyalarını çek */
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&display=swap');
+@import "bootstrap-icons/font/bootstrap-icons.css"; 
+@import "tailwindcss";
+
+/* 2. Sonra Tailwind temana bu fontu tanıt */
+@theme {
+  --font-bogle: "BBH Bogle", sans-serif;
+}
